@@ -68,7 +68,7 @@ class ViewController: NSViewController {
 			if let result = dialog.url {
 				let path = result.path
 				print(path)
-				selectFolderButton.title = "Select Folder: \(path)"
+				selectFolderButton.title = "Select Folder…⌘o: \(path)"
 				renameButton.isEnabled = true
 			} else {
 				renameButton.isEnabled = false
@@ -80,7 +80,7 @@ class ViewController: NSViewController {
 	
 	@IBAction func process(sender:Any) {
 		var path = selectFolderButton.title
-		path = String(path[path.index(path.startIndex, offsetBy:15)...])
+		path = String(path[path.index(path.startIndex, offsetBy:18)...])
 		let folder = URL(fileURLWithPath: path)
 		print("Rename \(path)")
 		let fileManager = FileManager.default
@@ -181,7 +181,8 @@ class ViewController: NSViewController {
 		startLabel.cell?.setAccessibilityElement(false)
 		endSliderChanged(sender:endSlider)
 endLabel.cell?.setAccessibilityElement(false)
-
+selectFolderButton.keyEquivalent = "o"
+		selectFolderButton.keyEquivalentModifierMask = .command
 		// Do any additional setup after loading the view.
 	}
 	

@@ -14,13 +14,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA51C897207FFB0700F64AF2 /* Samples Renamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Samples Renamer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA51C897207FFB0700F64AF2 /* Sample Renamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample Renamer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA51C89A207FFB0700F64AF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA51C89C207FFB0700F64AF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA51C89E207FFB0700F64AF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA51C8A1207FFB0700F64AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA51C8A3207FFB0700F64AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA51C8A4207FFB0700F64AF2 /* Samples_Renamer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Samples_Renamer.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +36,7 @@
 		EA51C88E207FFB0700F64AF2 = {
 			isa = PBXGroup;
 			children = (
-				EA51C899207FFB0700F64AF2 /* Samples Renamer */,
+				EA51C899207FFB0700F64AF2 /* Sample Renamer */,
 				EA51C898207FFB0700F64AF2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,12 +44,12 @@
 		EA51C898207FFB0700F64AF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA51C897207FFB0700F64AF2 /* Samples Renamer.app */,
+				EA51C897207FFB0700F64AF2 /* Sample Renamer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA51C899207FFB0700F64AF2 /* Samples Renamer */ = {
+		EA51C899207FFB0700F64AF2 /* Sample Renamer */ = {
 			isa = PBXGroup;
 			children = (
 				EA51C89A207FFB0700F64AF2 /* AppDelegate.swift */,
@@ -58,17 +57,16 @@
 				EA51C89E207FFB0700F64AF2 /* Assets.xcassets */,
 				EA51C8A0207FFB0700F64AF2 /* Main.storyboard */,
 				EA51C8A3207FFB0700F64AF2 /* Info.plist */,
-				EA51C8A4207FFB0700F64AF2 /* Samples_Renamer.entitlements */,
 			);
-			path = "Samples Renamer";
+			path = "Sample Renamer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA51C896207FFB0700F64AF2 /* Samples Renamer */ = {
+		EA51C896207FFB0700F64AF2 /* Sample Renamer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA51C8A7207FFB0700F64AF2 /* Build configuration list for PBXNativeTarget "Samples Renamer" */;
+			buildConfigurationList = EA51C8A7207FFB0700F64AF2 /* Build configuration list for PBXNativeTarget "Sample Renamer" */;
 			buildPhases = (
 				EA51C893207FFB0700F64AF2 /* Sources */,
 				EA51C894207FFB0700F64AF2 /* Frameworks */,
@@ -78,9 +76,9 @@
 			);
 			dependencies = (
 			);
-			name = "Samples Renamer";
+			name = "Sample Renamer";
 			productName = "Samples Renamer";
-			productReference = EA51C897207FFB0700F64AF2 /* Samples Renamer.app */;
+			productReference = EA51C897207FFB0700F64AF2 /* Sample Renamer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EA51C892207FFB0700F64AF2 /* Build configuration list for PBXProject "Samples Renamer" */;
+			buildConfigurationList = EA51C892207FFB0700F64AF2 /* Build configuration list for PBXProject "Sample Renamer" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA51C896207FFB0700F64AF2 /* Samples Renamer */,
+				EA51C896207FFB0700F64AF2 /* Sample Renamer */,
 			);
 		};
 /* End PBXProject section */
@@ -275,9 +273,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9N598S2535;
-				INFOPLIST_FILE = "Samples Renamer/Info.plist";
+				INFOPLIST_FILE = "Sample Renamer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chikim.Samples-Renamer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chikim.Sample-Renamer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -290,9 +288,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9N598S2535;
-				INFOPLIST_FILE = "Samples Renamer/Info.plist";
+				INFOPLIST_FILE = "Sample Renamer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.chikim.Samples-Renamer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chikim.Sample-Renamer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -301,7 +299,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA51C892207FFB0700F64AF2 /* Build configuration list for PBXProject "Samples Renamer" */ = {
+		EA51C892207FFB0700F64AF2 /* Build configuration list for PBXProject "Sample Renamer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA51C8A5207FFB0700F64AF2 /* Debug */,
@@ -310,7 +308,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA51C8A7207FFB0700F64AF2 /* Build configuration list for PBXNativeTarget "Samples Renamer" */ = {
+		EA51C8A7207FFB0700F64AF2 /* Build configuration list for PBXNativeTarget "Sample Renamer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA51C8A8207FFB0700F64AF2 /* Debug */,
